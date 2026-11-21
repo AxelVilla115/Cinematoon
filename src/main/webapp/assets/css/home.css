@@ -1,0 +1,41 @@
+.home {
+    min-height: calc(100vh - 72px);
+    padding: 2rem 5.2%;
+    background-color: #f1f1f1;
+}
+
+.home__header {
+    margin-bottom: 1.5rem;
+}
+
+.home__header h1 {
+    margin-bottom: 0.35rem;
+    color: #171717;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.home__header p {
+    margin: 0;
+    color: #666;
+}
+
+.movie-grid {
+    width: 100%;
+}
+
+.movie-search {
+    max-width: 420px;
+    margin-top: 1.25rem;
+}
+
+.movie-search input {
+    border-radius: 10px;
+    padding: 0.7rem 1rem;
+    border-color: #d0d0d0;
+}
+
+.movie-search input:focus {
+    border-color: #777;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.08);
+}
